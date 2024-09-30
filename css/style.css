@@ -221,7 +221,7 @@ input[type="submit"] {
   /* Insert a background-color property with following value: red */
   /* Insert a font-size property with following value: xx-large */
   /* Insert a color property with following value: ghostwhite */
-  width: 39rem;  
+
   background-color: rgb(215, 31, 31);
   font-size: xx-large;
   color: ghostwhite;
@@ -236,6 +236,21 @@ footer{
   background: #F63232;
   color: white;
   padding: 10px;
+  text-align: center;
+}
+
+main article form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mario {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
